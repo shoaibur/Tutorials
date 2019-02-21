@@ -1,4 +1,4 @@
-Probability distributions
+# Probability distributions
 **Bernoulli distribution**
 * Parameters: $p$
 * Equation: $p^k (1-p)^{1-k}$

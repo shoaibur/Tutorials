@@ -28,3 +28,30 @@
    Mean = k / p and variance = k(1-p) / p^2
 ```
 
+**Poisson**
+```
+   Parameters: lam
+   Poisson(lam) = e^(-lam) lam^k / k!
+   Mean = lam and variance = lam
+```
+
+**Exponential**
+```
+   Parameters: lam
+   Exponential(lam) = lam * e^(-lam*x)
+   Mean = 1/lam and variance = 1/lam^2
+```
+
+**Uniform**
+```
+   Parameters: a, b
+   Uniform(a,b) = 1 / (b - a)
+   Mean = (a+b)/2 and variance = (b-a)^2 / 12
+```
+
+**Normal**
+```
+   Parameters: mu, sigma
+   Normal(mu, sigma) = 1/sqrt(2*pi*sigma^2) * e^(-(x-mu)^2 / (2*sigma^2))
+   Mean = mu and variance = sigma^2
+```

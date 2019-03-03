@@ -1,11 +1,9 @@
 # Probability distributions
 **Bernoulli distribution**
-* Parameters: $p$
-* Equation: $p^k (1-p)^{1-k}$
-* Mean: $p$
-* Variance: $p(1-p)$
-* Notes:
-    * Discrete.
-    * Single event with two outcomes.
-    * Each outcome is equally probable.
-    
+```
+   Parameters: p
+   Bernoulli(p) = p^k (1-p)^(1-k)
+   Mean: p
+   Variance: p(1-p)
+   Notes:Each outcome is equally probable.
+```    

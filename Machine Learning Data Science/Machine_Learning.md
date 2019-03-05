@@ -8,7 +8,7 @@
 * Assumptions: (1) Independent observations, (2) Logodds-predictors linear relationships, (3) No or minimal multicolinearity, (4) Samples represent population.
 * Algorithm:
   * initialize W and b
-  * Forward propabation
+  * Forward propagation
     * Linear transformation, Z = W^T * X + b
     * Activation, A = sigmoid(Z)
   * Compute cost, J = Y log(A) + (1-Y) log(1-P)

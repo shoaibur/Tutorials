@@ -1,1 +1,3 @@
 **Linear Regression**
+
+**Logistic Regression**

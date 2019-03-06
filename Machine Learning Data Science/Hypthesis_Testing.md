@@ -12,5 +12,6 @@
 
 
 * In R:
- * 1-sample t-test
+  * 1-sample t-test
+    * t.test(x, mu=0)
 

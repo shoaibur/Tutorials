@@ -12,6 +12,7 @@
 
 
 * In R:
-  * 1-sample t-test
-    * t.test(x, mu=0)
+  * 1-sample, 2-sample (independent, paired) t-test
+    * Parametric: t.test(x, y=NULL, var.equal=T, paired=F)
+    * Nonparametric: wilcoxon.test(x, y=NULL, var.equal=T, paired=F)
 

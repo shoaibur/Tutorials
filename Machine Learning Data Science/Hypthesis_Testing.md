@@ -16,6 +16,6 @@
     * Parametric: t.test(x, y=NULL, var.equal=T, paired=F)
     * Nonparametric: wilcoxon.test(x, y=NULL, var.equal=T, paired=F)
   * z-test: library(BSDA)
-    * o	z.test(x, y, mu = 0, sigma.x = 1, sigma.y = 1, conf.level = 0.95)
+    * z.test(x, y, mu = 0, sigma.x = 1, sigma.y = 1, conf.level = 0.95)
   * 
 

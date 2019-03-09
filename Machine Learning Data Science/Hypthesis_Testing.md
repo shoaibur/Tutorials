@@ -26,3 +26,18 @@
 **Confidence interval**
 ```95% CI: With repeated samples, the method/experiment will produce intervals that capture/overlap the population parameter (e.g. mean) in 95% of the samples.```
 
+* A/B testing and p-value 
+  * Step 1. Hypothesis
+    * H0: mu = 20 min after the change
+    * H1 > 20 min after the change
+  * Step 2. Significant level
+    * alpha = 0.05
+  * Step 3. Calculate sample statistic
+    * Take samples (after change), n = 100
+    * Estimate mean (x_bar = 25 min), sd (s = 3 min), etc.
+  * Step 4. p-value: 
+    * P(x_bar >= 25 | H0 true)
+    * Probability of getting data as extreme or more extreme than the calculated statistic given the null the hypothesis.
+  * Step 5. Compare p-value with significance level
+    * If p < alpha --> Reject H0 in favour of H1
+    * If p >= alpha --> Do not reject H0

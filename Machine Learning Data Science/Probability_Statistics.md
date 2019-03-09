@@ -60,6 +60,16 @@
 
 **Exercise Problems (collection continuing from different sources!)**
 
+* There are four people in a room that haven’t met before. They are told to shake hands, exactly once, of every other person in the room so that they all meet each other. If each of these people shake their hands with every other person exactly once then how many handshakes are going to occur?
+
+* You have 8 coins in a bag. 3 of them are unfair and they have 60% chance of coming up with head when flipped. You randomly chose one coin from the bag and flip it two times. What is the probability of getting two heads?
+
+* Find the probability of rolling doubles on two six-sided dice numbered from 1 to 6
+
+* There are 26 letters in english. 1) can you tell me # of possible combinations of creating 3 letter words when we can use the each letter as many time as we want 2) and when we can use each letter only once?
+
+* Software tester a found 80 bugs. Software tester b found 60 bugs. And they found 40 bugs that were common between them. Can you estimate the total number of bugs in the system?
+
 * Bobo the amoeba has a 25%, 25%, and 50% chance of producing 0, 1, or 2 o spring, respectively. Each of Bobo’s descendants also has the same probabilities. What is the probability that Bobo’s lineage dies out?
 
 * In any 15-minute interval, there is a 20% probability that you will see at least one shooting star. What is the probability that you see at least one shooting star in the period of an hour?

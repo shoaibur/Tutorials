@@ -26,7 +26,7 @@
 **Confidence interval**
 ```95% CI: With repeated samples, the method/experiment will produce intervals that capture/overlap the population parameter (e.g. mean) in 95% of the samples.```
 
-**A/B testing and p-value**
+<b>A/B testing and p-value</b>
 * Step 1. Hypothesis
   * H0: mu = 20 min after the change
   * H1 > 20 min after the change

@@ -71,15 +71,16 @@
 ```
 
 **Conjugate priors**
-
-```Prior - Likelihood pairs:
+```
+Prior - Likelihood pairs:
 Beta - Binomial
 Gamma - Poisson
 Beta - Geometric
 Normal - Normal(sigma=known)
 Inverse Gamma - Normal(mu=known)
 Pareto - Uniform
-Gamma - Exponential```
+Gamma - Exponential
+```
 
 
 **Exercise Problems (collection continuing from different sources!)**

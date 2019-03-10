@@ -56,6 +56,13 @@
    Mean = mu and variance = sigma^2
 ```
 
+**Gamma**
+```
+   Parameters: alpha, beta
+   Gamma(alpha, beta) = beta^alpha / gamma_func(alpha) * x^(alpha-1) * e^(-beta * x)
+   Mean = alpha/beta and variance = alpha/beta^2
+```
+
 
 
 **Exercise Problems (collection continuing from different sources!)**

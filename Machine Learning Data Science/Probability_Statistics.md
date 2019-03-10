@@ -73,10 +73,8 @@
 **Conjugate priors**
 ```
 Prior - Likelihood pairs:
-Pareto - Uniform
-Beta - Binomial                  Beta - Geometric     
-Gamma - Poisson                  Gamma - Exponential
-Normal - Normal(sigma=known)     Inverse Gamma - Normal(mu=known)
+Beta - Binomial            Gamma - Poisson         Normal - Normal(sigma=known)        Pareto - Uniform
+Beta - Geometric           Gamma - Exponential     Inverse Gamma - Normal(mu=known)
 ```
 
 

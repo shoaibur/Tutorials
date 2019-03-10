@@ -63,6 +63,23 @@
    Mean = alpha/beta and variance = alpha/beta^2
 ```
 
+**Beta**
+```
+   Parameters: alpha, beta
+   Gamma(alpha, beta) = x^(alpha-1) * (1-x)^(beta-1) / B(alpha,beta), where B(alpha,beta) = gamma_func(alpha) * gamma_func(beta) / gamma_func(alpha+beta)
+   Mean = alpha/(alpha+beta) and variance = alpha*beta / ( (alpha+beta)^2 * (alpha + beta + 1) )
+```
+
+**Conjugate priors**
+
+```Prior - Likelihood pairs:
+Beta - Binomial
+Gamma - Poisson
+Beta - Geometric
+Normal - Normal(sigma=known)
+Inverse Gamma - Normal(mu=known)
+Pareto - Uniform
+Gamma - Exponential```
 
 
 **Exercise Problems (collection continuing from different sources!)**

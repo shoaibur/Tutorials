@@ -59,14 +59,14 @@
 **Gamma**
 ```
    Parameters: alpha, beta
-   Gamma(alpha, beta) = beta^alpha / gamma_func(alpha) * x^(alpha-1) * e^(-beta * x)
+   Gamma(alpha, beta) = beta^alpha / GAMM(alpha) * x^(alpha-1) * e^(-beta * x)
    Mean = alpha/beta and variance = alpha/beta^2
 ```
 
 **Beta**
 ```
    Parameters: alpha, beta
-   Gamma(alpha, beta) = x^(alpha-1) * (1-x)^(beta-1) / B(alpha,beta), where B(alpha,beta) = gamma_func(alpha) * gamma_func(beta) / gamma_func(alpha+beta)
+   Beta(alpha, beta) = x^(alpha-1) * (1-x)^(beta-1) / B(alpha,beta), where B(alpha,beta) = GAMM(alpha) * GAMM(beta) / gamma_func(alpha+beta)
    Mean = alpha/(alpha+beta) and variance = alpha*beta / ( (alpha+beta)^2 * (alpha + beta + 1) )
 ```
 
@@ -75,6 +75,13 @@
 Prior - Likelihood pairs:
 Beta - Binomial            Gamma - Poisson         Normal - Normal(sigma=known)        Pareto - Uniform
 Beta - Geometric           Gamma - Exponential     Inverse Gamma - Normal(mu=known)
+```
+
+**Gamma-Beta identities**
+```
+INT(0, inf){ x^(t-1) * e^(-x) }dx = GAMM(t)
+INT(0,1){ x^(a-1) * (1-x)^(b-1) }dx = GAMM(a)*GAMM(b)/GAMM(a+b)
+GAMM(a) = (a-1)! and GAMM(1+a) = a*GAMM(a)
 ```
 
 

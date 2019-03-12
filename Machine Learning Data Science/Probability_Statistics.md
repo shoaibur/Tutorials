@@ -227,3 +227,23 @@ GAMM(a) = (a-1)! and GAMM(1+a) = a*GAMM(a)
 
 * Consider influenza epidemics for two parent heterosexual families. Suppose that the probability is 17% that at least one of the parents has contracted the disease. The probability that the father has contracted influenza is 12% while the probability that both the mother and father have contracted the disease is 6%. What is the probability that the mother has contracted influenza?
 
+* Suppose that diastolic blood pressures (DBPs) for men aged 35-44 are normally distributed with a mean of 80 (mm Hg) and a standard deviation of 10. About what is the probability that a random 35-44 year old has a DBP less than 70?
+
+* In a population of interest, a sample of 9 men yielded a sample average brain volume of 1,100cc and a standard deviation of 30cc. What is a 95% Student’s T confidence interval for the mean brain volume in this new population?
+
+* A diet pill is given to 9 subjects over six weeks. The average difference in weight (follow up - baseline) is -2 pounds. What would the standard deviation of the difference in weight have to be for the upper endpoint of the 95% T confidence interval to touch 0?
+
+* An oil company conducts a geological study that indicates that an exploratory oil well should have a 20% chance of striking oil. (1) What is the probability that the first strike comes on the third well drilled? (2) What is the probability that the third strike comes on the seventh well drilled? (3) What is the mean and variance of the number of wells that must be drilled if the oil company wants to set up three producing wells?
+
+* A representative from the National Football League's Marketing Division randomly selects people on a random street in Kansas City. The probability that he succeeds in finding such a person, equal 0.20. (1) What is the probability that the marketing representative must select 4 people before he finds one who attended the last home football game? (2) What is the probability that the marketing representative must select more than 6 people before he finds one who attended the last home football game? (3) How many people should we expect (that is, what is the average number) the marketing representative needs to select before he finds one who attended the last home football game? And, while we're at it, what is the variance?
+
+* You have a group of couples that decide to have children until they have their first girl, after which they stop having children. (1) What is the expected number of children each couple will have? (2) What is the expected gender ratio of the children that are born?
+
+* The number of typos on a printed page with a mean of 3 typos per page. (1) What is the probability that a randomly selected page has at least one typo on it? (2) What is the probability that a randomly selected page has at most one typo on it? (3) What is the probability that a randomly selected page has four typos on it? (4) What is the probability that three randomly selected pages have more than eight typos on it?
+
+* Students arrive at a local bar and restaurant according to an approximate Poisson process at a mean rate of 30 students per hour. What is the probability that the bouncer has to wait more than 3 minutes to card the next student?
+
+* The number of miles that a particular car can run before its battery wears out is exponentially distributed with an average of 10,000 miles. The owner of the car needs to take a 5000-mile trip. What is the probability that he will be able to complete the trip without having to replace the car battery?
+
+* A shuttle train at a busy airport completes a circuit between two terminals in 5 minutes. What is the probability that a passenger needs to wait more than 3 minutes in a terminal?
+

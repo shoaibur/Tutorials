@@ -186,3 +186,44 @@ GAMM(a) = (a-1)! and GAMM(1+a) = a*GAMM(a)
 * 18 people are randomly divided into 3 groups of size 5, 6 and 7. Among the 18 are John, Jack and James. What is the probability that: (1) what is the probability that both Jack and James are included in the 6-persons group? (2) What is the probability that John, Jack and James are each in a different group? (3) What is the probability that two of the three are in the same group and the third is in a different group?
 
 * A fair six-sided die is rolled 6 times. What is the probability of getting all outcomes as unique?
+
+* A player is randomly dealt a sequence of 13 cards from a deck of 52-cards. All sequences of 13 cards are equally likely. In an equivalent model, the cards are chosen and dealt one at a time. When choosing a card, the dealer is equally likely to pick any of the cards that remain in the deck. If you dealt 13 cards, what is the probability that the 13th card is a King?
+
+* Anita randomly picks 4 cards from a deck of 52-cards and places them back into the deck ( Any set of 4 cards is equally likely ). Then, Babita randomly chooses 8 cards out of the same deck ( Any set of 8 cards is equally likely). Assume that the choice of 4 cards by Anita and the choice of 8 cards by Babita are independent. What is the probability that all 4 cards chosen by Anita are in the set of 8 cards chosen by Babita?
+
+* Consider a tetrahedral die and roll it twice. What is the probability that the number on the first roll is strictly higher than the number on the second roll?
+
+* A fair six-sided die is rolled twice. What is the probability of getting 2 on the first roll and not getting 4 on the second roll?
+
+* Alice has 2 kids and one of them is a girl. What is the probability that the other child is also a girl?
+
+* Let A and B be events on the same sample space, with P (A) = 0.6 and P (B) = 0.7. Can these two events be disjoint?
+
+* You are playing a lottery game where you must pick 2 numbers from 0 to 9 followed by an English alphabet (from 26-letters). You may choose the same number both times. If his ticket matches the 2 numbers and 1 letter drawn in order, you win the grand prize and receive $10405. If just his letter matches but one or both of the numbers do not match, you win $100. Under any other circumstance, you win nothing. The game costs you $5 to play. Suppose you have chosen 04R to play. What is the expected net profit from playing this ticket?
+
+* A coin is tossed for 1000 times and 560 heads appeared. Is the coin fair?
+
+* In general, 20% m&m are red. You pick 100 of them and found 15 red. Is this usual?
+
+* You’re about to get on a plane to Seattle. You want to know if you should bring an umbrella. You call 3 random friends of yours who live there and ask each independently if it’s raining. Each of your friends has a 2/3 chance of telling you the truth and a 1/3 chance of messing with you by lying. All 3 friends tell you that “Yes” it is raining. What is the probability that it’s actually raining in Seattle?
+
+* There’s one box - has 12 black and 12 red cards, 2nd box has 24 black and 24 red; if you want to draw 2 cards at random from one of the 2 boxes, which box has the higher probability of getting the same color? Can you tell intuitively why the 2nd box has a higher probability?
+
+* An HIV test has a sensitivity of 99.7% and a specificity of 98.5%. A subject from a population of prevalence 0.1% receives a positive test result. What is the precision of the test (i.e the probability he is HIV positive)?
+
+* Infection rates at a hospital above a 1 infection per 100 person days at risk are considered high. An hospital had 10 infections over the last 1787 person days at risk. Give the p-value of the correct one-sided test of whether the hospital is below the standard.
+
+* You roll a biased coin (p(head)=0.8) five times. What’s the probability of getting three or more heads?
+
+* A random variable X is normal with mean 1020 and standard deviation 50. Calculate P(X>1200)
+
+* Consider the number of people that show up at a bus station is Poisson with mean 2.5/h. What is the probability that at most three people show up in a four-hour period?
+
+* You are running for office and your pollster polled hundred people. Sixty of them claimed they will vote for you. Can you relax?
+
+* Geiger counter records 100 radioactive decays in 5 minutes. Find an approximate 95% interval for the number of decays per hour.
+
+* The homicide rate in Scotland fell last year to 99 from 115 the year before. Is this reported change really noteworthy?
+
+* Consider influenza epidemics for two parent heterosexual families. Suppose that the probability is 17% that at least one of the parents has contracted the disease. The probability that the father has contracted influenza is 12% while the probability that both the mother and father have contracted the disease is 6%. What is the probability that the mother has contracted influenza?
+

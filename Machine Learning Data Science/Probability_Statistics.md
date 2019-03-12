@@ -153,3 +153,36 @@ GAMM(a) = (a-1)! and GAMM(1+a) = a*GAMM(a)
 
 * Assume you sell sandwiches. 70% people choose egg, and the rest choose chicken. What is the probability of selling 2 egg sandwiches to the next 3 customers?
 
+* In a class of 30 students, approximately what is the probability that two of the students have their birthday on the same day (defined by same day and month) (assuming it’s not a leap year)?
+
+* Consider the following probability density function: f(x) = 1/8 e^(-x/8), x > 0. What is the probability for X≤6 i.e. P(x≤6)
+
+* There are a total of 8 bows of 2 each of green, yellow, orange & red. In how many ways can you select 1 bow?
+
+* A coin of diameter 1-inches is thrown on a table covered with a grid of lines each two inches apart. What is the probability that the coin lands inside a square without touching any of the lines of the grid? You can assume that the person throwing has no skill in throwing the coin and is throwing it randomly.
+
+* Suppose you were interviewed for a technical role. 50% of the people who sat for the first interview received the call for second interview. 95% of the people who got a call for second interview felt good about their first interview. 75% of people who did not receive a second call, also felt good about their first interview. If you felt good after your first interview, what is the probability that you will receive a second interview call?
+
+* Consider 3 situations as follows: (1) At least one 6, when 6 dice are rolled. (2) At least 2 sixes when 12 dice are rolled. (3) At least 3 sixes when 18 dice are rolled. Which of the following events is most likely?
+
+* A jar contains 4 marbles: 3 red and 1 white. Two marbles are drawn with replacement after each draw. What is the probability that the same color marble is drawn twice?
+
+* Some test scores follow a normal distribution with a mean of 18 and a standard deviation of 6. What proportion of test takers have scored between 18 and 24?
+
+* A roulette wheel has 38 slots, 18 are red, 18 are black, and 2 are green. You play five games and always bet on red. (1) How many games can you expect to win? (2) What is the probability that you win all the 5 games?
+
+* Cross-fertilizing a red and a white flower produces red flowers 25% of the time. Now we cross-fertilize five pairs of red and white flowers and produce five offspring. What is the probability that there are no red flower plants in the five offspring?
+
+* Suppose you’re in the final round of “Let’s make a deal” game show and you are supposed to choose from three doors – 1, 2 & 3. One of the three doors has a car behind it and other two doors have goats. Let’s say you choose Door 1 and the host opens Door 3, which has a goat behind it. To assure the probability of your win, which of the following options would you choose?
+
+* When an event A independent of itself?
+
+* Suppose a life insurance company sells a $240,000 one year term life insurance policy to a 25-year old female for $210. The probability that the female survives the year is .999592. Find the expected value of this policy for the insurance company.
+
+* We have two coins, A and B. For each toss of coin A, the probability of getting head is 1/2 and for each toss of coin B, the probability of getting Heads is 1/3. All tosses of the same coin are independent. We select a coin at random and toss it till we get a head. The probability of selecting coin A is ¼ and coin B is 3/4. What is the expected number of tosses to get the first heads?
+
+* A group of 60 students is randomly split into 3 classes of equal size. All partitions are equally likely. Jack and Jill are two students belonging to that group. What is the probability that Jack and Jill will end up in the same class?
+
+* 18 people are randomly divided into 3 groups of size 5, 6 and 7. Among the 18 are John, Jack and James. What is the probability that: (1) what is the probability that both Jack and James are included in the 6-persons group? (2) What is the probability that John, Jack and James are each in a different group? (3) What is the probability that two of the three are in the same group and the third is in a different group?
+
+* A fair six-sided die is rolled 6 times. What is the probability of getting all outcomes as unique?

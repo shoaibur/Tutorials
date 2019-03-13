@@ -22,7 +22,9 @@
     * ```z = (p - p0) / sigma``` where p=sample proportion, p0=assumed proportion at H0, sigma = sqrt((1-p0)/p0)
     * ```t = (mu-mu0) / sigma``` where mu=sample mean, mu0=assumed mean at H0, sigma = sigma_sample/sqrt(n)
   * ANOVA
-    * One-way: fit = aov(y ~ A + B, df), or non-parametric: kruskal.test(y ~ A + B, df)
+    * One-way: fit = aov(y ~ A, df), or non-parametric: kruskal.test(y ~ A, df)
+    * Two-way
+      * Randomized block design: fit = aov(y ~ A + B, df), or non-parametric: friedman.test(y ~ A + B, df)
  
 
 **Confidence interval**

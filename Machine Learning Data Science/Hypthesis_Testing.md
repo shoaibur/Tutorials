@@ -54,6 +54,7 @@
 * Step 4. p-value: 
   * P(x_bar >= 25 | H0 true)
   * Probability of getting data as extreme or more extreme than the calculated statistic given the null the hypothesis.
+  * Probability of getting extreme data by chance given the null hypothesis.
 * Step 5. Compare p-value with significance level
   * If p < alpha --> Reject H0 in favour of H1
   * If p >= alpha --> Do not reject H0

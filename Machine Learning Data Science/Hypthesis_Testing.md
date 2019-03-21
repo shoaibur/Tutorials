@@ -9,6 +9,7 @@
   * 2-sample paired t-test
     * Parametric: ```stats.ttest_rel(a=data1, b=data2)```
     * Nonparametric: ```stats.wilcoxon(x=data, y=data2)```
+
 ###########################################################################
 
 * In R:
@@ -29,15 +30,17 @@
       * Repeated measured: ```fit = aov(y ~ A + Error(subj/A), df)```
   * ANCOVA: ```fit = aov(y ~ A + B + x1 + x2, df)```, A,B: Categorical and x1,x2: Continuous
 
+###########################################################################
 
 **Power analysis:**
 ```power.t.test(n, delta, sd, power, sig.level, alternative)```
 
-
+###########################################################################
 
 **Confidence interval**
 ```95% CI: With repeated samples, the method/experiment will produce intervals that capture/overlap the population parameter (e.g. mean) in 95% of the samples.```
 
+###########################################################################
 
 **A/B testing and p-value**
 * Step 1. Hypothesis

@@ -9,7 +9,7 @@
   * 2-sample paired t-test
     * Parametric: ```stats.ttest_rel(a=data1, b=data2)```
     * Nonparametric: ```stats.wilcoxon(x=data, y=data2)```
-
+###########################################################################
 
 * In R:
   * 1-sample, 2-sample (independent, paired) t-test
@@ -22,7 +22,7 @@
     * ```z = (p - p0) / sigma``` where p=sample proportion, p0=assumed proportion at H0, sigma = sqrt((1-p0)/p0)
     * ```t = (mu-mu0) / sigma``` where mu=sample mean, mu0=assumed mean at H0, sigma = sigma_sample/sqrt(n)
   * ANOVA
-    * One-way: fit = aov(y ~ A, df), or non-parametric: kruskal.test(y ~ A, df)
+    * One-way: ```fit = aov(y ~ A, df)```, or non-parametric: ```kruskal.test(y ~ A, df)```
     * Two-way
       * Randomized block design: ```fit = aov(y ~ A + B, df)```, or non-parametric: ```friedman.test(y ~ A + B, df)```
       * Factorial design: ```fit = aov(y ~ A + B + A:B, df)```

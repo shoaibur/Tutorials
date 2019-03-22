@@ -22,6 +22,10 @@
     * z-test is used for comparing proportions, while t-test is used for comparing means.
     * ```z = (p - p0) / sigma``` where p=sample proportion, p0=assumed proportion at H0, sigma = sqrt((1-p0)/p0)
     * ```t = (mu-mu0) / sigma``` where mu=sample mean, mu0=assumed mean at H0, sigma = sigma_sample/sqrt(n)
+
+  * Chi-squre test (for goodness-of-fit and independence)
+    * ```chisq.test(x, y)
+  
   * ANOVA
     * One-way: ```fit = aov(y ~ A, df)```, or non-parametric: ```kruskal.test(y ~ A, df)```
     * Two-way
@@ -29,6 +33,10 @@
       * Factorial design: ```fit = aov(y ~ A + B + A:B, df)```
       * Repeated measured: ```fit = aov(y ~ A + Error(subj/A), df)```
   * ANCOVA: ```fit = aov(y ~ A + B + x1 + x2, df)```, A,B: Categorical and x1,x2: Continuous
+  
+  * Linear model: ```fit = lm(y ~ x1 + x2, df)```
+  * Liner mixed-effect model: library(lme4)
+    * ```fit = lmer(y ~ x1 + x2 + (1|g1), df)``` where x1 and x2 are fixed, g1 is random
 
 ###########################################################################
 

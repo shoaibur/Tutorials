@@ -24,7 +24,7 @@
     * ```t = (mu-mu0) / sigma``` where mu=sample mean, mu0=assumed mean at H0, sigma = sigma_sample/sqrt(n)
 
   * Chi-squre test (for goodness-of-fit and independence)
-    * ```chisq.test(x, y)
+    * ```chisq.test(x, y)```
   
   * ANOVA
     * One-way: ```fit = aov(y ~ A, df)```, or non-parametric: ```kruskal.test(y ~ A, df)```

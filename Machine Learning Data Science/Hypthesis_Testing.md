@@ -74,8 +74,8 @@
 * No assumption of distribution of data is required for non-parametric tests.
 * Non-parametric tests have less statistical power, i.e. are high succeptible to give type-II error.
 * Less statistical power specifically when the sample size is small, because non-parametric tests look for ranks, e.g.
-
-```With actual values:
+```
+With actual values:
 Control-----------Treatment
   1.4               100.1
   1.5               107.5

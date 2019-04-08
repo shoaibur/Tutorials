@@ -85,5 +85,6 @@ With ranks
 Control-----------Treatment
   2                 4
   3                 6
-  1                 5 ```
+  1                 5
+
      

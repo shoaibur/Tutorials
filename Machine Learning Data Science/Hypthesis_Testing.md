@@ -75,16 +75,8 @@
 * Non-parametric tests have less statistical power, i.e. are high succeptible to give type-II error.
 * Less statistical power specifically when the sample size is small, because non-parametric tests look for ranks, e.g.
 ```
-With actual values:
-Control-----------Treatment
-  1.4               100.1
-  1.5               107.5
-  1.1               103.4
- 
-With ranks
-Control-----------Treatment
-  2                 4
-  3                 6
-  1                 5
-
-     
+With actual values:                |         With ranks:
+Control-----------Treatment        |         Control-----------Treatment
+  1.4               100.1          |           2                 4
+  1.5               107.5          |           3                 6
+  1.1               103.4          |           1                 5

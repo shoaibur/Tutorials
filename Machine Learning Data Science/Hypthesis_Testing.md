@@ -32,6 +32,9 @@
       * Randomized block design: ```fit = aov(y ~ A + B, df)```, or non-parametric: ```friedman.test(y ~ A + B, df)```
       * Factorial design: ```fit = aov(y ~ A + B + A:B, df)```
       * Repeated measured: ```fit = aov(y ~ A + Error(subj/A), df)```
+       or, ```fit = lme(y ~ A * B + random = ~1|subj), df)
+       anova(fit)```
+       
   * ANCOVA: ```fit = aov(y ~ A + B + x1 + x2, df)```, A,B: Categorical and x1,x2: Continuous
   
   * Linear model: ```fit = lm(y ~ x1 + x2, df)```

@@ -68,7 +68,7 @@
   * If p < alpha --> Reject H0 in favour of H1
   * If p >= alpha --> Do not reject H0
 
-**Statistical Power:** ```Ability to correctly reject the null hypothesis, 1-beta```
+**Statistical Power:** ```Ability to correctly reject the null hypothesis, measured as power = 1 - beta```
 
 **Parametric vs. non-parametric tests**
 * No assumption of distribution of data is required for non-parametric tests.

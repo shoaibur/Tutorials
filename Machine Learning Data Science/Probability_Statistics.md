@@ -33,7 +33,7 @@
    Parameters: lam
    Poisson(lam) = e^(-lam) lam^k / k!
    Mean = lam and variance = lam
-   Number of events in a given time duration follows Poisson distribution.
+   The number of events occur in a given time duration follows Poisson distribution.
 ```
 
 **Exponential**
@@ -41,6 +41,7 @@
    Parameters: lam
    Exponential(lam) = lam * e^(-lam*x)
    Mean = 1/lam and variance = 1/lam^2
+   The amount of time to wait until an event first occurs follow an exponential distribution.
 ```
 
 **Uniform**

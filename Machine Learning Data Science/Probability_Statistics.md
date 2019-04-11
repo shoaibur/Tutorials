@@ -33,6 +33,7 @@
    Parameters: lam
    Poisson(lam) = e^(-lam) lam^k / k!
    Mean = lam and variance = lam
+   Number of events in a given time duration follows Poisson distribution.
 ```
 
 **Exponential**

@@ -42,6 +42,7 @@
    Exponential(lam) = lam * e^(-lam*x)
    Mean = 1/lam and variance = 1/lam^2
    The amount of time to wait until an event first occurs follow an exponential distribution.
+   Note: If the occurrence of events in a time duration T = t2-t1 can be modeled as Poisson process, the in inter-event-intervals can be modeled using exponential distribution, i.e. the times taken between two consecutive events are exponential distributed.
 ```
 
 **Uniform**

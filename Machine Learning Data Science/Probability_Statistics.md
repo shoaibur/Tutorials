@@ -248,8 +248,7 @@ GAMM(a) = (a-1)! and GAMM(1+a) = a*GAMM(a)
 
 * The number of miles that a particular car can run before its battery wears out is exponentially distributed with an average of 10,000 miles. The owner of the car needs to take a 5000-mile trip. What is the probability that he will be able to complete the trip without having to replace the car battery?
 
-* A shuttle train at a busy airport completes a circuit between two terminals in 5 minutes. What is the probability that a passenger needs to wait more than 3 minutes in a terminal?
-```
+* A shuttle train at a busy airport completes a circuit between two terminals in 5 minutes. What is the probability that a passenger needs to wait more than 3 minutes in a terminal? ```
 a=0, b=5, U(a,b)=1/(b-a) = 1/5
 P(x>3) = int(3,5) 1/5 dx = 2/5 = 0.4
 ```

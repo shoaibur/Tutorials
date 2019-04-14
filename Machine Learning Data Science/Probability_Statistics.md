@@ -245,10 +245,21 @@ GAMM(a) = (a-1)! and GAMM(1+a) = a*GAMM(a)
 * The number of typos on a printed page with a mean of 3 typos per page. (1) What is the probability that a randomly selected page has at least one typo on it? (2) What is the probability that a randomly selected page has at most one typo on it? (3) What is the probability that a randomly selected page has four typos on it? (4) What is the probability that three randomly selected pages have more than eight typos on it?
 
 * Students arrive at a local bar and restaurant according to an approximate Poisson process at a mean rate of 30 students per hour. What is the probability that the bouncer has to wait more than 3 minutes to card the next student?
+```
+Times between events, whose occurances can be modeled as Poisson process, can be modeled using exponential distribution.
+mu = 1/lam = 30 /hour = 1/2 /minute
+P(x>3) = int(3,inf) 2 exp(-2x) = exp(-6)
+```
 
 * The number of miles that a particular car can run before its battery wears out is exponentially distributed with an average of 10,000 miles. The owner of the car needs to take a 5000-mile trip. What is the probability that he will be able to complete the trip without having to replace the car battery?
+```
+Assume that the car hasn't been driven, i.e. the battery is fully charged before the starting of the journey.
+mu = 1/lam = 10000 miles
+P(x>5000) = int(5000,inf) 1/1000 exp(-x/10000) = exp(-1/2)
+```
 
-* A shuttle train at a busy airport completes a circuit between two terminals in 5 minutes. What is the probability that a passenger needs to wait more than 3 minutes in a terminal? ```
+* A shuttle train at a busy airport completes a circuit between two terminals in 5 minutes. What is the probability that a passenger needs to wait more than 3 minutes in a terminal?
+```
 a=0, b=5, U(a,b)=1/(b-a) = 1/5
 P(x>3) = int(3,5) 1/5 dx = 2/5 = 0.4
 ```

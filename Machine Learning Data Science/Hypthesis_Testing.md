@@ -12,7 +12,7 @@
     * Parametric: ``` stats.ttest_rel(sample1, sample2) ```
     * Nonparametric: ``` stats.wilcoxon(sample1, sample2) ```
   * 2-sample (independent):
-    * Parametric: ``` stats.ttest_ind(sample1, sample2) ```
+    * Parametric: ``` stats.ttest_ind(sample1, sample2, equal_var=True) ```
     * Nonparametric: ``` stats.manwhitneyu(sample1, sample2) ```
 
 * Linear Models
@@ -32,6 +32,16 @@
   * ```model = AnovaRM(data=df, depvar='y', subject='subjID', within=['x1', 'x2']).fit()```
   * ```print(model)```
   
+* Normality tests
+  * ```stats.shapiro(sample)```
+  * ```stats.kstest(sample, 'norm')```
+  * ```stats.normalitytest(sample)```
+
+* Equal variance tests
+  * ```stats.levene(sample)```
+  * ```stats.bartlett(sample)```
+  * ```stats.flinger(sample)``` Nonparametric
+
 ###########################################################################
 
 * Statistical tests in R:

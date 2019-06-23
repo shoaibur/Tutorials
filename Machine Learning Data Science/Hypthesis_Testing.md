@@ -1,21 +1,20 @@
 **Statistical tests in Python**
 * Imports
- * **from** scipy **import** stats
+  * from scipy import stats
+  * from statsmodels.formula.api import ols, mixedlm
+  * from statsmodels.stats.anova import anova_lm, AnovaRM
+  
 * T-tests:
-  * 1-sample t-test: stat
+  * 1-sample: 
+    * Parametric: ``` stats.ttest_1samp(sample) ```
+    * Nonparametric ``` stats.wilcoxon(sample) ```
+  * 2-sample (paired): 
+    * Parametric: ``` stats.ttest_rel(sample1, sample2) ```
+    * Nonparametric: ``` stats.wilcoxon(sample1, sample2) ```
+  * 2-sample (independent):
+    * Parametric: ``` stats.ttest_ind(sample1, sample2) ```
+    * Nonparametric: ``` stats.manwhitneyu(sample1, sample2) ```
 
-
-**T-tests**
-* In Python: from scipy import stats
-  * 1-sample t-test
-    * Parametric: ```stats.ttest_1samp(a=data)```
-    * Nonparametric: ```stats.wilcoxon(x=data, y=None)```
-  * 2-sample paired t-test
-    * Parametric: ```stats.ttest_rel(a=data1, b=data2)```
-    * Nonparametric: ```stats.wilcoxon(x=data1, y=data2)```
-  * 2-sample independent t-test
-    * Parametric: ```stats.ttest_ind(a=data1, b=data2, equal_var=True)```
-    * Nonparametric: ```stats.mannwhitneyu(x=data1, y=data2)```
   
 ###########################################################################
 

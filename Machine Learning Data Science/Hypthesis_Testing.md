@@ -50,6 +50,12 @@
   * ```model = AnovaRM(data=df, depvar='y', subject='subjID', within=['x1', 'x2']).fit()```
   * ```print(model)```
   
+* Proportion tests
+  * Z-test
+    * ```ztest(x1, x2=None, value=0)```
+  * Chi-square test
+    * ```chisquare(f_obs, f_exp=None)```
+  
 * Normality tests
   * ```stats.shapiro(sample)```
   * ```stats.kstest(sample, 'norm')```

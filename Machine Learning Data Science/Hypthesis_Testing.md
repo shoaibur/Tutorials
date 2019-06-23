@@ -1,10 +1,10 @@
 **Statistical tests in Python**
-* Imports
+* Required packages
   * from scipy import stats
   * from statsmodels.formula.api import ols, mixedlm
   * from statsmodels.stats.anova import anova_lm, AnovaRM
   
-* T-tests:
+* T-tests
   * 1-sample: 
     * Parametric: ``` stats.ttest_1samp(sample) ```
     * Nonparametric ``` stats.wilcoxon(sample) ```
@@ -15,10 +15,26 @@
     * Parametric: ``` stats.ttest_ind(sample1, sample2) ```
     * Nonparametric: ``` stats.manwhitneyu(sample1, sample2) ```
 
+* Linear Models
+  * ```model = ols(formula = 'y ~ x1 * x2 -1', data=df).fit()```
+  * ```print(model.summary())```
+
+* Linear Mixed Models
+  * ```model = mixedlm(formula = 'y ~ x1 + x2 -1', data=df, groups=['x3']).fit()```
+  * ```print(model.summary())```
+
+* ANOVA
+  * ```model = ols(formula = 'y ~ x1 + x2', data=df).fit()```
+  * ```aov_table = anova_lm(model)```
+  * ```print(aov_table)```
+  
+* Repeated-measures ANOVA
+  * ```model = AnovaRM(data=df, depvar='y', subject='subjID', within=['x1', 'x2']).fit()```
+  * ```print(model)```
   
 ###########################################################################
 
-* In R:
+* Statistical tests in R:
   * 1-sample, 2-sample (independent, paired) t-test
     * Parametric: ```t.test(x, y=NULL, var.equal=T, paired=F)```
     * Nonparametric: ```wilcoxon.test(x, y=NULL, var.equal=T, paired=F)```

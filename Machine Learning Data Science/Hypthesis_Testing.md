@@ -9,7 +9,7 @@
   * 2-sample paired t-test
     * Parametric: ```stats.ttest_rel(a=data1, b=data2)```
     * Nonparametric: ```stats.wilcoxon(x=data1, y=data2)```
-
+  
 ###########################################################################
 
 * In R:
@@ -70,6 +70,16 @@
   * If p >= alpha --> Do not reject H0
 
 **Statistical Power:** ```Ability to correctly reject the null hypothesis, measured as power = 1 - beta```
+
+**Tests of assumptions of normal distribution and equal variance**
+* Noramality tests
+  * ```stats.shapiro(x)```
+  * ```stats.kstest(x, 'norm')```
+  * ```stats.normalitytest(x)```  
+* Equal variance tests
+  * ```stats.levene(x, y)```
+  * ```stats.bartlett(x, 'norm')```
+  * ```stats.flinger(x) -- non-parametric```
 
 **Parametric vs. non-parametric tests**
 * No assumption of distribution of data is required for non-parametric tests.

@@ -41,6 +41,13 @@
   * ```stats.levene(sample)```
   * ```stats.bartlett(sample)```
   * ```stats.flinger(sample)``` Nonparametric
+  
+* Power analysis
+  * 1-sample
+    * statsmodels.stats.power.tt_solve_power(effect_size=None, nobs=None, alpha=None, power=None, alternative='two-sided')
+  * 2-sample
+    * statsmodels.stats.power.tt_ind_solve_power(effect_size=None, nobs=None, alpha=None, power=None, alternative='two-sided')
+    * statsmodels.stats.power_zt_ind_solve_power(effect_size=None, nobs=None, alpha=None, power=None, alternative='two-sided')
 
 ###########################################################################
 

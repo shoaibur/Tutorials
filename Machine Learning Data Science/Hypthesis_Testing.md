@@ -95,7 +95,8 @@ Control-----------Treatment        |         Control-----------Treatment
   1.5               107.5          |           3                 6
   1.1               103.4          |           1                 5
 ```
-** z-test vs. t-test**
+
+**Z-test vs. T-test**
   * z-test is used for comparing proportions, while t-test is used for comparing means.
   * ```z = (p - p0) / sigma``` where p=sample proportion, p0=assumed proportion at H0, sigma = sqrt((1-p0)/p0)
   * ```t = (mu-mu0) / sigma``` where mu=sample mean, mu0=assumed mean at H0, sigma = sigma_sample/sqrt(n)

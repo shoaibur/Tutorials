@@ -21,6 +21,7 @@
   * ```from statsmodels.formula.api import ols, mixedlm```
   * ```from statsmodels.stats.anova import anova_lm, AnovaRM```
   * ```from statsmodels.stats.power import tt_solve_power, tt_ind_solve_power, zt_solve_power```
+  * ```from statsmodels.stats.weightstats import ztest```
   
 * T-tests
   * 1-sample: 
@@ -54,7 +55,7 @@
   * Z-test
     * ```ztest(x1, x2=None, value=0)```
   * Chi-square test
-    * ```chisquare(f_obs, f_exp=None)```
+    * ```stats.chisquare(f_obs, f_exp=None)```
   
 * Normality tests
   * ```stats.shapiro(sample)```

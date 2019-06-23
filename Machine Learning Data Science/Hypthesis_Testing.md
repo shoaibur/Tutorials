@@ -13,7 +13,6 @@
   * If ```p < alpha``` --> Reject H0 in favour of H1
   * If ```p >= alpha``` --> Do not reject H0
 
-###########################################################################
 
 **Statistical tests in Python**
 * Required packages
@@ -74,7 +73,6 @@
     * ```tt_ind_solve_power(effect_size=None, nobs=None, alpha=None, power=None, alternative='two-sided')```
     * ```zt_ind_solve_power(effect_size=None, nobs=None, alpha=None, power=None, alternative='two-sided')```
 
-###########################################################################
 
 **Confidence interval**
 ```95% CI: With repeated samples, the method/experiment will produce intervals that capture/overlap the population parameter (e.g. mean) in 95% of the samples.```
@@ -97,8 +95,13 @@ Control-----------Treatment        |         Control-----------Treatment
   1.5               107.5          |           3                 6
   1.1               103.4          |           1                 5
 ```
+** z-test vs. t-test**
+  * z-test is used for comparing proportions, while t-test is used for comparing means.
+  * ```z = (p - p0) / sigma``` where p=sample proportion, p0=assumed proportion at H0, sigma = sqrt((1-p0)/p0)
+  * ```t = (mu-mu0) / sigma``` where mu=sample mean, mu0=assumed mean at H0, sigma = sigma_sample/sqrt(n)
 
-###########################################################################
+
+
 
 * Statistical tests in R:
   * 1-sample, 2-sample (independent, paired) t-test
@@ -106,12 +109,8 @@ Control-----------Treatment        |         Control-----------Treatment
     * Nonparametric: ```wilcoxon.test(x, y=NULL, var.equal=T, paired=F)```
   * z-test: library(BSDA)
     * ```z.test(x, y, mu = 0, sigma.x = 1, sigma.y = 1, conf.level = 0.95)```
-  * z-test vs. t-test
-    * z-test is used for comparing proportions, while t-test is used for comparing means.
-    * ```z = (p - p0) / sigma``` where p=sample proportion, p0=assumed proportion at H0, sigma = sqrt((1-p0)/p0)
-    * ```t = (mu-mu0) / sigma``` where mu=sample mean, mu0=assumed mean at H0, sigma = sigma_sample/sqrt(n)
 
-  * Chi-squre test (for goodness-of-fit and independence)
+* Chi-squre test (for goodness-of-fit and independence)
     * ```chisq.test(x, y)```
   
   * ANOVA
@@ -124,11 +123,12 @@ Control-----------Treatment        |         Control-----------Treatment
   * ANCOVA: ```fit = aov(y ~ A + B + x1 + x2, df)```, A,B: Categorical and x1,x2: Continuous
   
   * Linear model: ```fit = lm(y ~ x1 + x2, df)```
+  
   * Liner mixed-effect model: library(lme4)
     * ```fit = lmer(y ~ x1 + x2 + (1|g1), df)``` where x1 and x2 are fixed, g1 is random
+  
+  * Power analysis:
+  * ```power.t.test(n, delta, sd, power, sig.level, alternative)```
 
-###########################################################################
 
-**Power analysis:**
-```power.t.test(n, delta, sd, power, sig.level, alternative)```
 

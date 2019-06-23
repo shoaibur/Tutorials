@@ -1,3 +1,10 @@
+**Statistical tests in Python**
+* Imports
+ * **from** scipy **import** stats
+* T-tests:
+  * 1-sample t-test: stat
+
+
 **T-tests**
 * In Python: from scipy import stats
   * 1-sample t-test

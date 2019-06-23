@@ -71,7 +71,7 @@
 
 **Statistical Power:** ```Ability to correctly reject the null hypothesis, measured as power = 1 - beta```
 
-**Tests of assumptions of normal distribution and equal variance**
+**Tests of assumptions of normal distribution and equal variance:**
 * Noramality tests
   * ```stats.shapiro(x)```
   * ```stats.kstest(x, 'norm')```

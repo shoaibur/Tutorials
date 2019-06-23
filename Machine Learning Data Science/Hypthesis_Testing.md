@@ -104,11 +104,11 @@ Control-----------Treatment        |         Control-----------Treatment
 
 
 
-* Statistical tests in R:
-  * 1-sample, 2-sample (independent, paired) t-test
+**Statistical tests in R**
+  * T-tests -- 1-sample, 2-sample (independent, paired)
     * Parametric: ```t.test(x, y=NULL, var.equal=T, paired=F)```
     * Nonparametric: ```wilcoxon.test(x, y=NULL, var.equal=T, paired=F)```
-  * z-test: library(BSDA)
+  * Z-test: library(BSDA)
     * ```z.test(x, y, mu = 0, sigma.x = 1, sigma.y = 1, conf.level = 0.95)```
 
 * Chi-squre test (for goodness-of-fit and independence)

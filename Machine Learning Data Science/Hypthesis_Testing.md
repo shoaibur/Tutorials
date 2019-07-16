@@ -80,6 +80,7 @@
 **p-value**
 ```Probability of getting data as extreme or more extreme than the calculated statistic given the null the hypothesis.```
 ```Probability of getting extreme data by chance given the null hypothesis.```
+```Probability that a random chance generated the data, or something else that is equal and rarer.```
 
 **Statistical Power:**
 ```Ability to correctly reject the null hypothesis, measured as power = 1 - beta```

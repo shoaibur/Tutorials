@@ -19,6 +19,7 @@
    Parameters: p
    Geometric(p) = p (1-p)^(x-1)
    Mean = 1/p and variance = (1-p) / p^2
+   p = Probability of getting 1-st success in x trials.
 ```
 
 **Negative Binomial**
@@ -26,6 +27,7 @@
    Parameters: k, p
    NegBinomial(k, p) = (x-1)C(k-1) p^k (1-p)^(x-k)
    Mean = k / p and variance = k(1-p) / p^2
+   p = Probability of getting k successes in x trials.
 ```
 
 **Poisson**

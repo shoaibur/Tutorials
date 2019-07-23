@@ -12,6 +12,7 @@
    Parameters: p, n
    Binomial(p, n) = nCx p^x (1-p)^(n-x)
    Mean = np and variance = np(1-p)
+   CI = p +/- 1.96 * sqrt( p(1-p)/n ) under normal approximation with np > 5
 ```
 
 **Geometric**

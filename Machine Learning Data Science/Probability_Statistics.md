@@ -12,7 +12,7 @@
    Parameters: p, n
    Binomial(p, n) = nCx p^x (1-p)^(n-x)
    Mean = np and variance = np(1-p)
-   CI = p +/- 1.96 * sqrt( p(1-p)/n ) under normal approximation with np > 5
+   CI = p +/- 1.96 * sqrt( p(1-p)/n ) under normal approximation with np > 5.
 ```
 
 **Geometric**
@@ -36,6 +36,7 @@
    Parameters: lam
    Poisson(lam) = e^(-lam) lam^k / k!
    Mean = lam and variance = lam
+   CI = lam +/- 1.96 * sqrt( lam/n ) under normal approximation.
    The number of events occur in a given time duration follows Poisson distribution.
 ```
 

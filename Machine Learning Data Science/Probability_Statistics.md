@@ -100,6 +100,17 @@ There are 4C2 ways to select 2 people from 4.
 ```
 
 * You have 8 coins in a bag. 3 of them are unfair and they have 60% chance of coming up with head when flipped. You randomly chose one coin from the bag and flip it two times. What is the probability of getting two heads?
+```
+8--|U--3/8--|--HH--0.6*0.6 √
+   |        |--HT--0.6*0.4
+   |        |--TH--0.4*0.6
+   |        |--TT--0.4*0.4
+   |U--3/8--|--HH--0.5*0.5 √
+   |        |--HT--0.5*0.5
+   |        |--TH--0.5*0.5
+   |        |--TT--0.5*0.5
+p(HH) = p(HH|U) + p(HH|F) = 3/8 * 0.36 + 5/8 * 0.25
+```
 
 * Find the probability of rolling doubles on two six-sided dice numbered from 1 to 6
 

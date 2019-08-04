@@ -109,7 +109,6 @@ There are 4C2 ways to select 2 people from 4.
    |        |--HT--0.5*0.5
    |        |--TH--0.5*0.5
    |        |--TT--0.5*0.5
-
 Law of total probability:
 p(HH) = p(HH|U) + p(HH|F) = 3/8 * 0.36 + 5/8 * 0.25
 ```

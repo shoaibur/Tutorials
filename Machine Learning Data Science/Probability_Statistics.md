@@ -95,6 +95,9 @@ GAMM(a) = (a-1)! and GAMM(1+a) = a*GAMM(a)
 **Exercise Problems (collection continuing from different sources!)**
 
 * There are four people in a room that haven’t met before. They are told to shake hands, exactly once, of every other person in the room so that they all meet each other. If each of these people shake their hands with every other person exactly once then how many handshakes are going to occur?
+```
+There are 4C2 ways to select 2 people from 4.
+```
 
 * You have 8 coins in a bag. 3 of them are unfair and they have 60% chance of coming up with head when flipped. You randomly chose one coin from the bag and flip it two times. What is the probability of getting two heads?
 

@@ -115,7 +115,9 @@ p(HH) = p(HH|U) + p(HH|F) = 3/8 * 0.36 + 5/8 * 0.25
 
 * Find the probability of rolling doubles on two six-sided dice numbered from 1 to 6
  ```
-Imagine the sample space of the two rolls; the diagonal will form the doubles (same outcome in the both rolls). So, the probability of rolling doubles is 6/36 = 1/6
+Imagine the sample space of the two rolls; 
+the diagonal will form the doubles (same outcome in the both rolls). 
+So, the probability of rolling doubles is 6/36 = 1/6
 ```
 
 * There are 26 letters in english. 1) can you tell me # of possible combinations of creating 3 letter words when we can use the each letter as many time as we want 2) and when we can use each letter only once?

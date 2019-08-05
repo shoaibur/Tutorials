@@ -121,6 +121,10 @@ So, the probability of rolling doubles is 6/36 = 1/6
 ```
 
 * There are 26 letters in english. 1) can you tell me # of possible combinations of creating 3 letter words when we can use the each letter as many time as we want 2) and when we can use each letter only once?
+```
+1) Each position can be filled with 26 ways, so for 3 letter words: 26*26*26 = 26^3
+2) Total choice: 26C3
+```
 
 * Software tester a found 80 bugs. Software tester b found 60 bugs. And they found 40 bugs that were common between them. Can you estimate the total number of bugs in the system?
 

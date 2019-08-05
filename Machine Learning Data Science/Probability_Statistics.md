@@ -127,6 +127,9 @@ So, the probability of rolling doubles is 6/36 = 1/6
 ```
 
 * Software tester a found 80 bugs. Software tester b found 60 bugs. And they found 40 bugs that were common between them. Can you estimate the total number of bugs in the system?
+```
+n(Bugs) = n(a) + n(b) - n(a and b) = 80 + 60 - 40 = 100
+```
 
 * Bobo the amoeba has a 25%, 25%, and 50% chance of producing 0, 1, or 2 o spring, respectively. Each of Bobo’s descendants also has the same probabilities. What is the probability that Bobo’s lineage dies out?
 

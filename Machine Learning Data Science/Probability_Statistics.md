@@ -132,6 +132,15 @@ n(Bugs) = n(a) + n(b) - n(a and b) = 80 + 60 - 40 = 100
 ```
 
 * Bobo the amoeba has a 25%, 25%, and 50% chance of producing 0, 1, or 2 o spring, respectively. Each of Bobo’s descendants also has the same probabilities. What is the probability that Bobo’s lineage dies out?
+```
+p = probability of Bobo's lineage dies out.
+Bobo--|--0--1/4.p^0
+      |--1--1/4.p^1
+      |--2--1/2.p^2
+Total probability:
+p = 1/4 + 1/4 p + 1/2 p^2
+p = 1, 1/2
+```
 
 * In any 15-minute interval, there is a 20% probability that you will see at least one shooting star. What is the probability that you see at least one shooting star in the period of an hour?
 

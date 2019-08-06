@@ -152,7 +152,7 @@ p = 0.2 = \    exp(-lambda) lambda^k / k!
           /
           ---
           i=1
-or, 0.2 = 1-exp(-lambda) => exp(-lambda) = 0.8 => lambda = ln(1/0.8) = ln(5/4)
+=> 0.2 = 1-exp(-lambda) => exp(-lambda) = 0.8 => lambda = ln(1/0.8) = ln(5/4)
 
 For 1 hour duration:
 lambda = 60/15 * lambda = 4 ln(5/4)
@@ -160,6 +160,10 @@ p = 1 - exp(-lambda) = 1 - exp(-4 ln(5/4))
 ```
 
 * How can you generate a random number between 1 and 7 with only a die?
+```
+Outcome in first and second rolls: x1 and x2
+Random number between 1 and 7 with the outcomes in two rolls: (6*(x1-1) + x2)%7 + 1
+```
 
 * How can you get a fair coin toss if someone hands you a coin that is weighted to come up heads more often than tails?
 

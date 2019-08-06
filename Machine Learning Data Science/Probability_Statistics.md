@@ -163,8 +163,11 @@ p = 1 - exp(-lambda) = 1 - exp(-4 ln(5/4))
 ```
 Let's roll twice, which will give 36 possible unique outcomes. For equal proabiblity,
 consider the first 35 outcomes (maximum integer of 7) and ignore the rolls with outcomes 6,6.
+
 Let's denote the outcomes in the first and second rolls: x1 and x2
 Random number between 1 and 7 with the outcomes in two rolls: (6*(x1-1) + x2)%7 + 1
+
+A % B denotes the remainder when A is divided by B.
 
 In general, with a n-sided dice (or anything that gives n possible unique outputs),
 and with r rolls, to generate random numbers between 1 and D, use the following equation:

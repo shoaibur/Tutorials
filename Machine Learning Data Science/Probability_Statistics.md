@@ -167,14 +167,15 @@ Random number between 1 and 7 with the outcomes in two rolls: (6*(x1-1) + x2)%7 
 In general, with a n-sided dice (or anything that gives n possible unique outputs),
 and with r rolls, to generate random numbers between 1 and D, use the following equation:
 
-r-1
----
-\  n^(r-1) * (x_i - 1) + x_r
-/
----
-i=i
-
-For n = 6 and r = 4: 6^3*(x1-1) + 6^2*(x2-1) + 6*(x3-1) + x4
+.----                       ----.
+|  r-1                           |
+|  ---                           |
+|  \  n^(r-1) * (x_i - 1) + x_r  | % D + 1
+|  /                             |
+|  ---                           |
+|  i=i                           |
+'----                       ----'
+For n = 6 and r = 4: [6^3*(x1-1) + 6^2*(x2-1) + 6*(x3-1) + x4] % D + 1
 ```
 
 * How can you get a fair coin toss if someone hands you a coin that is weighted to come up heads more often than tails?

@@ -161,7 +161,9 @@ p = 1 - exp(-lambda) = 1 - exp(-4 ln(5/4))
 
 * How can you generate a random number between 1 and 7 with only a die?
 ```
-Outcome in first and second rolls: x1 and x2
+Let's roll twice, which will give 36 possible unique outcomes. For equal proabiblity,
+consider the first 35 outcomes (maximum integer of 7) and ignore the rolls with outcomes 6,6.
+Let's denote the outcomes in the first and second rolls: x1 and x2
 Random number between 1 and 7 with the outcomes in two rolls: (6*(x1-1) + x2)%7 + 1
 
 In general, with a n-sided dice (or anything that gives n possible unique outputs),
@@ -176,6 +178,8 @@ and with r rolls, to generate random numbers between 1 and D, use the following 
 |  i=i                           |
 '----                       ----'
 For n = 6 and r = 4: [6^3*(x1-1) + 6^2*(x2-1) + 6*(x3-1) + x4] % D + 1
+
+Based on the value of D, we need to find the value of r and ignore some of the outcomes.
 ```
 
 * How can you get a fair coin toss if someone hands you a coin that is weighted to come up heads more often than tails?

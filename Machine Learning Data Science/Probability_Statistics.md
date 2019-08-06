@@ -143,6 +143,21 @@ p = 1, 1/2
 ```
 
 * In any 15-minute interval, there is a 20% probability that you will see at least one shooting star. What is the probability that you see at least one shooting star in the period of an hour?
+```
+Number of occurance in a given (time) interval follows a Poisson distribution.
+For 15-minute duration:
+          inf
+          ---
+p = 0.2 = \    exp(-lambda) lambda^k / k!
+          /
+          ---
+          i=1
+or, 0.2 = 1-exp(-lambda) => exp(-lambda) = 0.8 => lambda = ln(1/0.8) = ln(5/4)
+
+For 1 hour duration:
+lambda = 60/15 * lambda = 4 ln(5/4)
+p = 1 - exp(-lambda) = 1 - exp(-4 ln(5/4))
+```
 
 * How can you generate a random number between 1 and 7 with only a die?
 

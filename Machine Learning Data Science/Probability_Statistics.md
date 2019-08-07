@@ -186,6 +186,14 @@ Based on the value of D, we need to find the value of r and ignore some of the o
 ```
 
 * How can you get a fair coin toss if someone hands you a coin that is weighted to come up heads more often than tails?
+```
+Let's probability of getting heads = p. Toss twice:
+prob(HH) = p.p
+prob(HT) = p(1-p)
+prob(TH) = (1-p)p
+prob(TT) = (1-p)(1-p)
+So, ignore if the outcomes are HH or TT, and call HT as heads and TH as tails, which have equal proababilities.
+```
 
 * You have an 50-50 mixture of two normal distributions with the same standard deviation. How far apart do the means need to be in order for this distribution to be bimodal?
 

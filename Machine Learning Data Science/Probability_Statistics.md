@@ -196,6 +196,9 @@ So, ignore if the outcomes are HH or TT, and call HT as heads and TH as tails, w
 ```
 
 * You have an 50-50 mixture of two normal distributions with the same standard deviation. How far apart do the means need to be in order for this distribution to be bimodal?
+```
+|mu1-mu2| > 2*sigma
+```
 
 * Given draws from a normal distribution with known parameters, how can you simulate draws from a uniform distribution?
 

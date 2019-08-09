@@ -215,6 +215,12 @@ the probability of having both girls is 1/3.
 ```
 
 * You have a group of couples that decide to have children until they have their first girl, after which they stop having children. What is the expected gender ratio of the children that are born? What is the expected number of children each couple will have?
+```
+This can be modeled as a geometric distribution. 
+Let's assume that having a boy or a girl is of same probability, p = 1/2.
+So, the expected value of geometric distribution = E[children] = 1/p = 2
+E[girl/boy] = E[girl]/E[children-girl] = E[girl]/(E[children]-E[girl] = 1/(2-1) = 1:1
+```
 
 * How many ways can you split 12 people into 3 teams of 4?
 

@@ -201,6 +201,11 @@ So, ignore if the outcomes are HH or TT, and call HT as heads and TH as tails, w
 ```
 
 * Given draws from a normal distribution with known parameters, how can you simulate draws from a uniform distribution?
+```
+Put the draws into the CDF of the normal distribution, 
+which will give the draws from a uniform distribution between 0 and 1.
+This is the universality of uniform distribution.
+```
 
 * A certain couple tells you that they have two children, at least one of which is a girl. What is the probability that they have two girls?
 

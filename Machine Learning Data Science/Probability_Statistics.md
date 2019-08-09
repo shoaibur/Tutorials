@@ -208,6 +208,11 @@ This is the universality of uniform distribution.
 ```
 
 * A certain couple tells you that they have two children, at least one of which is a girl. What is the probability that they have two girls?
+```
+Possible combination of two children: BB, BG, GB, GG.
+One is at least a girl, so BB is not possible. Therefore,
+the probability of having both girls is 1/3.
+```
 
 * You have a group of couples that decide to have children until they have their first girl, after which they stop having children. What is the expected gender ratio of the children that are born? What is the expected number of children each couple will have?
 

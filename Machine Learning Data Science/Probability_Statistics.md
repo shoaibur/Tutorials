@@ -230,6 +230,14 @@ Total possible ways: 12C4 * 8C4 * 4C4 / 3!
 * Your hash function assigns each object to a number between 1:10, each with equal probability. With 10 objects, what is the probability of a hash collision? What is the expected number of hash collisions? What is the expected number of hashes that are unused.
 
 * You call 2 UberX’s and 3 Lyfts. If the time that each takes to reach you is IID, what is the probability that all the Lyfts arrive first? What is the probability that all the UberX’s arrive first?
+```
+The number of possible ways that three Lyfts arrive first (in any order): 5C3
+The number of possible ways that 2U and 3L arrive: 5! / (2! * 3!)
+Note that the order of UberX's does not matter, so do Lyfts (similar to 
+number of possible words with repeated letters). If this assumption
+does not hold, we don't need to divide by 2!3!.
+So, the probability that three Lyfts arrive first: 5C3 / (5! / (2! * 3!))
+```
 
 * I write a program should print out all the numbers from 1 to 300, but prints out Fizz instead if the number is divisible by 3, Buzz instead if the number is divisible by 5, and FizzBuzz if the number is divisible by 3 and 5. What is the total number of numbers that is either Fizzed, Buzzed, or FizzBuzzed?
 

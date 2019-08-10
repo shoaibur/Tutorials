@@ -223,6 +223,9 @@ E[girl/boy] = E[girl]/E[children-girl] = E[girl]/(E[children]-E[girl] = 1/(2-1) 
 ```
 
 * How many ways can you split 12 people into 3 teams of 4?
+```
+Total possible ways: 12C4 * 8C4 * 4C4 / 3!
+```
 
 * Your hash function assigns each object to a number between 1:10, each with equal probability. With 10 objects, what is the probability of a hash collision? What is the expected number of hash collisions? What is the expected number of hashes that are unused.
 

@@ -237,6 +237,7 @@ Note that the order of UberX's does not matter, so do Lyfts (similar to
 number of possible words with repeated letters). If this assumption
 does not hold, we don't need to divide by 2!3!.
 So, the probability that three Lyfts arrive first: 5C3 / (5! / (2! * 3!))
+Similary, the probability that two UberX's arrive first: 5C2 / (5! / (2! * 3!))
 ```
 
 * I write a program should print out all the numbers from 1 to 300, but prints out Fizz instead if the number is divisible by 3, Buzz instead if the number is divisible by 5, and FizzBuzz if the number is divisible by 3 and 5. What is the total number of numbers that is either Fizzed, Buzzed, or FizzBuzzed?

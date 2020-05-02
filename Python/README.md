@@ -1,5 +1,7 @@
 # Python: Basics
-1. Difference between is and == operators
+1. Difference between **is** and **==** operators
+  * **==** operator checks if the contents are equal, e.g., x == y checks if the content/value of x is equal to the content/value of y.
+  * **is** operator if two objects share the same memory, e.g., x is y checks if object ids of x and y are same (in the memory).
 
 2. Check if each word in a string begins with a capital letter
 

@@ -1,7 +1,8 @@
 # Python: Basics
 1. Difference between **is** and **==** operators
-  * **==** operator checks if the contents are equal, e.g., x == y checks if the content/value of x is equal to the content/value of y.
-  * **is** operator if two objects share the same memory, e.g., x is y checks if object ids of x and y are same (in the memory).
+  * **==** operator checks if the contents are equal, e.g., x == y checks if the content/value of x is equal to the content/value of y, while **is** operator if two objects share the same memory, e.g., x is y checks if object ids of x and y are same (in the memory).
+  * If x = [] and y = [], then x == y returns True, because both are empty list; however, x is y returns False, because their x and y are allocated in two different locations in the memory, which can be verified using commands: id(x) and id(y), which will return two distinct identifiers.
+  * If x = 7 and y = 7, then both x == y and x is y return True. When two objects have fixed content, they are allocated in the same memoroy areas.
 
 2. Check if each word in a string begins with a capital letter
 

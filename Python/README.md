@@ -4,8 +4,8 @@
   * If *x = []* and *y = []*, then *x == y* returns *True*, because both are empty list; however, *x is y* returns *False*, because *x* and *y* are allocated in two different locations in the memory, which can be verified using commands: *id(x)* and *id(y)*, which will return two distinct identifiers.
   * If *x = 7* and *y = 7*, then both *x == y* and *x is y* return True. When two objects have fixed content, they are allocated in the same memoroy areas. Here is an example that explains this phenomenon: If *x = [1,2,3]* and *y = x*, then value of *y* is also [1,2,3]. However, if we change an element of *x*, say *x[1] = 5*, then *x* will be [1,5,3], but what's about *y*? In fact, *y* is also [1,5,3], because *x* and *y* share same memory, so changing one will also impact other.
 
-2. Difference between *i = i+1* and *i += 1*
-
+2. Difference between *x = x+1* and *x += 1*
+  * Both return same value of x. However, *x += 1* is supposed to be executed in-place (given that x has an __iadd__ method), while *x = x + 1* gets a new allocation for updated x. 
 
 
 

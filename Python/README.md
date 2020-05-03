@@ -27,9 +27,7 @@
   * `mystring.isupper()`
 
 7. Uppercase first and last character of a string
-  * `mystring = mystring.capitalize()`
-  * `mystring = mystring[::-1].capitalize()`
-  * `mystring = mystring[::-1]`
+  * `mystring[0].capitalize() + mystring[1:-1] + mystring[-1].capitalize()`
 
 8. Check if a string is composed of all lower case characters
 

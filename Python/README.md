@@ -12,6 +12,7 @@
 
 
 2. Check if each word in a string begins with a capital letter
+  * `mystring.istitle()` returns True if each word in mystring begins with a capital letter.
 
 3. Capitalize the first character of a string
 

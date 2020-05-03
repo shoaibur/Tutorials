@@ -15,15 +15,21 @@
   * `mystring.istitle()` returns True if each word in mystring begins with a capital letter.
 
 3. Capitalize the first character of a string
-
+  * `mystring.captitalize()`
+  
 4. Capitalize the first character of each word in a string
-
+  * `mystring.title()`
 
 5. Uppercase or lowercase an entire string
+  * `mystring.upper()` or `mystring.lower()`
 
 6. Check if a string is all uppercase
+  * `mystring.isupper()`
 
 7. Uppercase first and last character of a string
+  * `mystring = mystring.capitalize()`
+  * `mystring = mystring[::-1].capitalize()`
+  * `mystring = mystring[::-1]`
 
 8. Check if a string is composed of all lower case characters
 

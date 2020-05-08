@@ -26,6 +26,9 @@
 * *Uppercase first and last character of a string*
   * `mystring[0].capitalize() + mystring[1:-1] + mystring[-1].capitalize()`
 
+* *Difference between `|` and `or` in conditions*
+  * `if a or b` --> this first check for a, if a is true, it does not check for b. If a is not true, then it checks for b.
+
 8. Check if a string is composed of all lower case characters
 
 9. Check if the first character in a string is lowercase

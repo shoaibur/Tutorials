@@ -28,6 +28,7 @@
 
 * *Difference between `|` and `or` in conditions*
   * `if a or b` --> this first check for a, if a is true, it does not check for b. If a is not true, then it checks for b.
+  * `if a | b` --> this first checks for a and then checks for b. If either a or b is true, then execute the command under it.
 
 8. Check if a string is composed of all lower case characters
 

@@ -12,10 +12,11 @@
   * `if a or b` --> this first check for a, if a is true, it executes the command without checking for b. If a is not true, then it checks for b. If b is true, it executes the command under the condition.
   * `if a | b` --> this first checks for a and then checks for b. If either a or b is true, then execute the command under the condition.
   * Example:
-    def foo():
-    if not bar:
-        return True
-        
+  ```python
+  def foo():
+  if not bar:
+      return True
+  ```
     `a = True`
     `if a or b:`
         `pass`

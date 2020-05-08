@@ -47,7 +47,8 @@
 * Check if the first character in a string is lowercase
   * `mystring[0].islower()`
 
-10. Check if a string contains a specific substring
+* Check if a string contains a specific substring
+  * `mysubstring in mystring`
 
 11. Check if a string begins with or ends with a specific character?
 

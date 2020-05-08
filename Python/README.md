@@ -8,6 +8,17 @@
   * Both return same value of `x`. However, `x += 1` is supposed to be executed in-place (given that `x` has an `__iadd__` method, check available methods using `dir(x)`), whereas `x = x + 1` gets a new allocation for the updated `x`, and the previous allocation is removed.
   * Similar for other operations like `*=` if `__imul__` exists, `**=` if `__ipow__` exists, etc.
 
+* *Difference between `|` and `or` in conditions*
+  * `if a or b` --> this first check for a, if a is true, it executes the command without checking for b. If a is not true, then it checks for b. If b is true, it executes the command under the condition.
+  * `if a | b` --> this first checks for a and then checks for b. If either a or b is true, then execute the command under the condition.
+  * Example:
+    `a = True`
+    `if a or b:`
+        `pass`
+     
+    
+      
+  
 * *Check if each word in a string begins with a capital letter*
   * `mystring.istitle()` returns True if each word in mystring begins with a capital letter.
 
@@ -25,10 +36,6 @@
 
 * *Uppercase first and last character of a string*
   * `mystring[0].capitalize() + mystring[1:-1] + mystring[-1].capitalize()`
-
-* *Difference between `|` and `or` in conditions*
-  * `if a or b` --> this first check for a, if a is true, it executes the command without checking for b. If a is not true, then it checks for b. If b is true, it executes the command under the condition.
-  * `if a | b` --> this first checks for a and then checks for b. If either a or b is true, then execute the command under the condition.
 
 8. Check if a string is composed of all lower case characters
 

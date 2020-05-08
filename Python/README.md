@@ -13,23 +13,16 @@
   * `if a | b` --> this first checks for a and then checks for b. If either a or b is true, then execute the command under the condition.
   * Example:
   ```python
-  def foo():
-  if not bar:
-      return True
+  a = True
+  if a or b:
+      pass
   ```
-    `a = True`
-    `if a or b:`
-        `pass`
-    
-    This will not through any error. However, the following code throughs a NameError: 'b' is not defined 
-    
-    `a = True`
-    
-    `if a or b:`
-    
-        `pass`
-    
-      
+  This will not through any error. However, the following code throughs a NameError: 'b' is not defined 
+```python
+  a = True
+  if a | b:
+      pass
+  ```
   
 * *Check if each word in a string begins with a capital letter*
   * `mystring.istitle()` returns True if each word in mystring begins with a capital letter.

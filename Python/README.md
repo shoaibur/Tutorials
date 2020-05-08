@@ -50,7 +50,8 @@
 * Check if a string contains a specific substring
   * `mysubstring in mystring`
 
-11. Check if a string begins with or ends with a specific character?
+* Check if a string begins with or ends with a specific character?
+  * `mystring.startswith(myletter) or mystring.endswith(myletter)`
 
 12. Check if all characters are whitespace characters
 

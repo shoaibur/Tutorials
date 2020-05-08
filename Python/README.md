@@ -41,7 +41,8 @@
 * *Uppercase first and last character of a string*
   * `mystring[0].capitalize() + mystring[1:-1] + mystring[-1].capitalize()`
 
-8. Check if a string is composed of all lower case characters
+* Check if a string is composed of all lower case characters
+  * `mystring.islower()`
 
 9. Check if the first character in a string is lowercase
 

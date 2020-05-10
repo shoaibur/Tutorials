@@ -71,10 +71,11 @@
 
 
 
-18. Count the total number of characters in a string
+* Count the total number of characters in a string
+  * `len(mystring)`
 
-19. Count the number of a specific character in a string
-
+* Count the number of a specific character in a string
+  * 
 
 20. Split a string on a specific character
 

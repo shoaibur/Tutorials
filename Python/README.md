@@ -62,8 +62,8 @@
 * Check if a string contains only characters of the alphabet
   * `mystring.isalpha()`
 
-15. Check if all characters in a string are alphanumeric
-
+* Check if all characters in a string are alphanumeric
+  * `mystring.islanum()`
 
 16. Check if all characters in a string conform to ASCII
 

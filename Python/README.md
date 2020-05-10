@@ -53,7 +53,8 @@
 * Check if a string begins with or ends with a specific character?
   * `mystring.startswith(myletter) or mystring.endswith(myletter)`
 
-12. Check if all characters are whitespace characters
+* Check if all characters are whitespace characters
+  * `chars.isspace()`
 
 13. Check if a string contains only numbers
 

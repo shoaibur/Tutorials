@@ -56,7 +56,8 @@
 * Check if all characters are whitespace characters
   * `chars.isspace()`
 
-13. Check if a string contains only numbers
+* Check if a string contains only numbers
+  * `mystring.isnumeric()`
 
 14. Check if a string contains only characters of the alphabet
 

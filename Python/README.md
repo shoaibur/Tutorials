@@ -59,7 +59,8 @@
 * Check if a string contains only numbers
   * `mystring.isnumeric()`
 
-14. Check if a string contains only characters of the alphabet
+* Check if a string contains only characters of the alphabet
+  * `mystring.isalpha()`
 
 15. Check if all characters in a string are alphanumeric
 

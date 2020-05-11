@@ -24,7 +24,7 @@
     ```
 * *Difference between `*args` and `**kargs`
   * `*args` represent positional arguments, while `*kargs` represent keyword arugments.
-  * 
+  * `*args` are handled in tuple so can be unpacked with one `*`, while `kargs` are handled in dictionary so can be unpacked with two `*`.
 
 * *Check if each word in a string begins with a capital letter*
   * `mystring.istitle()` returns True if each word in mystring begins with a capital letter.

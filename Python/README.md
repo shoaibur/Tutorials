@@ -22,7 +22,10 @@
     if a | b:
         pass
     ```
-  
+* *Difference between `*args` and `**kargs`
+  * `*args` represent positional arguments, while `*kargs` represent keyword arugments.
+  * 
+
 * *Check if each word in a string begins with a capital letter*
   * `mystring.istitle()` returns True if each word in mystring begins with a capital letter.
 

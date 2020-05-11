@@ -44,28 +44,28 @@
 * *Uppercase first and last character of a string*
   * `mystring[0].capitalize() + mystring[1:-1] + mystring[-1].capitalize()`
 
-* Check if a string is composed of all lower case characters
+* *Check if a string is composed of all lower case characters
   * `mystring.islower()`
 
-* Check if the first character in a string is lowercase
+* *Check if the first character in a string is lowercase
   * `mystring[0].islower()`
 
-* Check if a string contains a specific substring
+* *Check if a string contains a specific substring
   * `mysubstring in mystring`
 
-* Check if a string begins with or ends with a specific character?
+* *Check if a string begins with or ends with a specific character?
   * `mystring.startswith(myletter) or mystring.endswith(myletter)`
 
-* Check if all characters are whitespace characters
+* *Check if all characters are whitespace characters
   * `chars.isspace()`
 
 * Check if a string contains only numbers
   * `mystring.isnumeric()`
 
-* Check if a string contains only characters of the alphabet
+* *Check if a string contains only characters of the alphabet
   * `mystring.isalpha()`
 
-* Check if all characters in a string are alphanumeric
+* *Check if all characters in a string are alphanumeric
   * `mystring.islanum()`
 
 16. Check if all characters in a string conform to ASCII
@@ -74,10 +74,10 @@
 
 
 
-* Count the total number of characters in a string
+* *Count the total number of characters in a string
   * `len(mystring)`
 
-* Count the number of a specific character in a string
+* *Count the number of a specific character in a string
   * `mystring.count(mychar)`
 
 20. Split a string on a specific character

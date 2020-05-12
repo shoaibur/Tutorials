@@ -95,7 +95,7 @@
         if n < m:
             return
         for i in range(n-m):
-            if string[i:m] == substring:
+            if string[i:i+m] == substring:
             return i
         return
     ```

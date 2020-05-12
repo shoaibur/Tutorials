@@ -80,7 +80,8 @@
 * *Count the number of a specific character in a string*
   * `mystring.count(mychar)`
 
-20. Split a string on a specific character
+* *Split a string on a specific character*
+  * `mystring.split(mychar)`
 
 21. When would you use splitlines()?
 

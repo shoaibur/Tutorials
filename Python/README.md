@@ -88,7 +88,17 @@
 22. Give an example of using the partition() function
 
 
-23. Find the index of the first occurrence of a substring in a string
+* *Find the index of the first occurrence of a substring in a string*
+    ```python
+    def first_occurrence_index(string, substring):
+        n, m = len(string), len(substring)
+        if n < m:
+            return
+        for i in range(n-m):
+            if string[i:m] == substring:
+            return i
+        return
+    ```
 
 24. Search a specific part of a string for a substring
 

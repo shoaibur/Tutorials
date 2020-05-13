@@ -105,7 +105,8 @@
 25. When would you use rfind()?
 
 
-26. Reverse the string “hello world”
+* *Reverse the string “hello world”*
+  * `'hello world'[::-1]`
 
 27. Give an example of string slicing
 

@@ -128,7 +128,9 @@
   ```
 
 * *Remove whitespace from the left, right or both sides of a string*
-  * ``
+  * `mystring.lstrip()`
+  * `mystring.rstrip()`
+  * `mystring.strip()`
 
 32. Remove vowels from a string
 

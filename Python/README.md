@@ -127,7 +127,8 @@
       return ''.join(string)
   ```
 
-31. Remove whitespace from the left, right or both sides of a string
+* *Remove whitespace from the left, right or both sides of a string*
+  * ``
 
 32. Remove vowels from a string
 

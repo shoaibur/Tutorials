@@ -108,9 +108,11 @@
 * *Reverse the string “hello world”*
   * `'hello world'[::-1]`
 
-27. Give an example of string slicing
+* *Give an example of string slicing*
+  * `mystring[start:end]`
 
-28. Convert an integer to a string
+* *Convert an integer to a string*
+  * `str(myinteger)`
 
 29. Return the minimum character in a string
 

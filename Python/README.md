@@ -117,7 +117,15 @@
 * *Return the minimum character in a string*
   * `min(mystring)`
 
-30. Replace all instances of a substring in a string
+* *Replace all instances of a substring in a string*
+  ```python
+  def replace(string, substring):
+      string = [char for char in string]
+      for i,char in enumerate(string):
+          if char in substring:
+              string[i] = '-' # replacing item
+      return ''.join(string)
+  ```
 
 31. Remove whitespace from the left, right or both sides of a string
 

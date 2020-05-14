@@ -114,7 +114,8 @@
 * *Convert an integer to a string*
   * `str(myinteger)`
 
-29. Return the minimum character in a string
+* *Return the minimum character in a string*
+  * `min(mystring)`
 
 30. Replace all instances of a substring in a string
 

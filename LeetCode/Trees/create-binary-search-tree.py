@@ -13,11 +13,11 @@ def insert(root, data):
                 root.left = Node(data)
             else:
                 insert(root.left, data)
-      else:
-          if root.right is None:
-              root.right = Node(data)
-          else:
-              insert(root.right, data)
+        else:
+            if root.right is None:
+                root.right = Node(data)
+            else:
+                insert(root.right, data)
     return
 # Example
 nums = [1,2,3,4,5,6,7]
@@ -31,3 +31,13 @@ for num in nums[:root]:
 for num in nums[root+1:]:
     insert(tree, num)
  
+# Print tree (pre_order traversal)
+def pre_order(tree):
+    if not tree:
+        return
+    else:
+        print(tree.data)
+        pre_order(tree.left)
+        pre_order(tree.right)
+    return
+pre_order(tree)

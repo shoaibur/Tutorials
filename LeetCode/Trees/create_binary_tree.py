@@ -1,8 +1,8 @@
 class Node:
-  def __init__(self, data):
-    self.data = data
-    self.left = None
-    self.right = None
+    def __init__(self, data):
+        self.data = data
+        self.left = None
+        self.right = None
     
 tree = Node(1)
 tree.left = Node(2)

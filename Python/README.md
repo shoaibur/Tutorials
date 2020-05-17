@@ -132,8 +132,11 @@
   * `mystring.rstrip()`
   * `mystring.strip()`
 
-32. Remove vowels from a string
-
+* *Remove vowels from a string*
+  ```python
+  ''.joint([char for char in mystring if char in 'aeiouAEIOU'])
+  ```
+  
 * *Concatenate two strings*
   ```mystring = mystring1 + mystring2```
 

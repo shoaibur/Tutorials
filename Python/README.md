@@ -100,11 +100,6 @@
         return
     ```
 
-24. Search a specific part of a string for a substring
-
-25. When would you use rfind()?
-
-
 * *Reverse the string “hello world”*
   * `'hello world'[::-1]`
 
@@ -142,7 +137,6 @@
 
 34. Join a list of strings into a single string, delimited by hyphens
 
-
 35. What is an f-string and how do you use it?
 
 36. Interpolate a variable into a string using format()
@@ -157,3 +151,6 @@
 
 41. Can an integer be added to a string in Python?
 
+24. Search a specific part of a string for a substring
+
+25. When would you use rfind()?

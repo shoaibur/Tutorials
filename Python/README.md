@@ -134,7 +134,7 @@
 
 * *Remove vowels from a string*
   ```python
-  ''.joint([char for char in mystring if char in 'aeiouAEIOU'])
+  ''.joint([char for char in mystring if char not in 'aeiouAEIOU'])
   ```
   
 * *Concatenate two strings*

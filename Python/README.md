@@ -134,7 +134,8 @@
 
 32. Remove vowels from a string
 
-33. Concatenate two strings
+* *Concatenate two strings*
+  ```mystring = mystring1 + mystring2```
 
 34. Join a list of strings into a single string, delimited by hyphens
 

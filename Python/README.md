@@ -133,10 +133,10 @@
   ```
   
 * *Concatenate two strings*
-  *```mystring = mystring1 + mystring2```
+  * ```mystring = mystring1 + mystring2```
 
 * *Join a list of strings into a single string, delimited by hyphens*
-  *```'-'.joint([s1, s2])```
+  * ```'-'.joint([s1, s2])```
 
 35. What is an f-string and how do you use it?
 

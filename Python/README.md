@@ -153,7 +153,7 @@
   ```
 
 * *Does defining a string twice (associated with 2 different variable names) create one*
-  * Yes!
+  * Yes! The variable id will be the same.
   ```python
   s1 = 'abc'
   s2 = 'abc'

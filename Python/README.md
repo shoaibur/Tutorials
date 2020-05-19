@@ -152,7 +152,13 @@
   print( 'Hi, I am {}! I am from {}'.format(name, country) )
   ```
 
-37. Does defining a string twice (associated with 2 different variable names) create one 
+* *Does defining a string twice (associated with 2 different variable names) create one*
+  * Yes!
+  ```python
+  s1 = 'abc'
+  s2 = 'abc'
+  print(id(s1), id(s2))
+  ```
 
 38. Give an example of using maketrans() and translate()
 

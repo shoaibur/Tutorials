@@ -139,12 +139,12 @@
   * ```'-'.joint([s1, s2])```
 
 * *What is an f-string and how do you use it?*
-   '''python
+   ```python
    name = 'Shoaib'
    country = 'Bangladesh'
    print( f'Hi, I am {name}! I am from {country}' )
-   '''
-
+   ```
+   
 36. Interpolate a variable into a string using format()
 
 37. Does defining a string twice (associated with 2 different variable names) create one 

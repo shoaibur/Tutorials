@@ -138,7 +138,12 @@
 * *Join a list of strings into a single string, delimited by hyphens*
   * ```'-'.joint([s1, s2])```
 
-35. What is an f-string and how do you use it?
+* *What is an f-string and how do you use it?*
+   '''python
+   name = 'Shoaib'
+   country = 'Bangladesh'
+   print( f'Hi, I am {name}! I am from {country}' )
+   '''
 
 36. Interpolate a variable into a string using format()
 

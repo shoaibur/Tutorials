@@ -93,7 +93,8 @@ Source: https://www.youtube.com/watch?v=dse8OTDlRcM&list=PLLucmoeZjtMR990BPePcn5
 31) We all deal with difficult customers from time to time. Tell me about a challenging client-facing situation and how you handled it?
 * 
 32) How do you show customer obsession?
-* Teaching DSP and grades.
+* Service to India.
+* Student's grade; teaching DSP and grades.
 
 ### xiv. Failure
 33) Tell me about a time you recovered from a difficult situation.
@@ -107,3 +108,4 @@ Source: https://www.youtube.com/watch?v=dse8OTDlRcM&list=PLLucmoeZjtMR990BPePcn5
 1. What are the plans for Amazon over the next 5 to 10 years and how I could contribute and be integrated to achieve the goals together?
 2. Amazon always brings out new products/ideas/services. What are the next great innovation your team is focusing right now?
 3. You expectedly have been working on multiple products/services, but what is the first thing you would like me to concentrate on this role?
+4. Have you ever get frustrated for being a software engineer? If so, could you please share your experience?

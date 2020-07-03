@@ -67,7 +67,7 @@ Source: https://www.youtube.com/watch?v=dse8OTDlRcM&list=PLLucmoeZjtMR990BPePcn5
 
 ### vii. Team/conflict
 15) Give me an example of a time you faced conflict while working on a team. How did you handle that?
-* 
+* Rice course project, initial discussion about a general approach, data preparation + model architecture, run models in hpc cluster; I was not happy, talked to him to understand if he did’t want to work or can’t or busy. He was busy so don’t need to do course assignment, I also implemented other models so he can tune the parameters. This approach worked well, our model became the best model.
 16) Tell me about a time when received negative feedback from you manager. How did you responded?
 * No official feedback at my current role; previous role: IDP - mathematics/computation poorly scored, met and discussed his reasoning; given my background, I realized his expectation was higher, specifically I could contribute in other’s projects. I understood and acted accordingly, and during introduction of thesis defense, he said that I was one of the best mathematicians he had ever seen. So, I believe my response worked out.
 
@@ -75,9 +75,9 @@ Source: https://www.youtube.com/watch?v=dse8OTDlRcM&list=PLLucmoeZjtMR990BPePcn5
 17) Tell me about a time when you missed an obvious solution to a problem.
 * Renamed data files, so missing when loading.
 18) A time when you faced a problem that had multiple possible solutions.
-* 
+* Current role - need to deal in a regular basis, e.g. MTL
 19) Tell me about a time when you came up with a new approach to a problem.
-* Signal processing algorithm, slow to faster training method
+* Signal processing algorithm, slow to faster training method, design a microprocessor
 20) Describe a time when you anticipated potential problems and developed preventive measures.
 * Driving to Seattle, tire/tools, snow/chain, extra oil, food, pillow, blanket.
 21) Describe a situation in which you found a creative way to overcome an obstacle.

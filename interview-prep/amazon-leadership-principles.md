@@ -19,29 +19,34 @@ Source: https://www.youtube.com/watch?v=dse8OTDlRcM&list=PLLucmoeZjtMR990BPePcn5
 
 ### i. Team/time management (positive and negative)
 1) Tell me about a time when you were not able to meet a time commitment. What prevented you from meeting it? What was the outcome and what did you learn from it?
-
+* Current role - two duties.
 2) Describe a long-term project you managed. How did you keep everything moving along in a timely manner?
-* PhD project -- set goals for next 6 months -- review progress with committee members -- change as needed -- hire interns for followup exps.
+* PhD project -- set goals for next 6 months -- review progress with committee members -- change as needed -- hire interns for followup experiments.
 3) Give me an example of a time when you set a goal and were able to meet or achieve it.
 * Get PhD before 2020 -- motivated password 201x -- PhD 12/19 -- need to publish.
-* GitHub -- no 3 consecutive days until finishing DSA nanodegree.
+* GitHub -- no 3 consecutive days until finishing DSA nano-degree.
 
 ### ii. Adaptation
 4) Tell me about a time you had to quickly adjust your work priorities to meet changing demands.
+* Meeting stakeholders, 4 sections, I was working on 3rd section but started working on 1st section to meet stakeholders’ demand.
 * Cultural shift from BD to US.
 * From school to industry -- daily standup, sprint, so couldn't be a freelancer.
 * WFH during the pandemic.
 
 ### iii. Team / decision
 5) An example when you had to push back to HQ or challenged a decision.
+* Current role - Fully-automated vs. semi-automated (with involvement of subject level experts)
 6) Tell me about the toughest decision you have had to make in the past six months.
+* Career: Facebook perception research position vs. looking for a software development (never regret like before, EE vs. CS)
+* Personal: Family - stop communication with a person
 7) Tell me about a decision that you regret.
+* EEE vs. CS
 
 ### iv. Team/leadership
 8) What did you do when you needed to motivate a group of individuals?
 * Social work (scholarship, free education), PhD + Lead prayer + Religious scholar
 9) Tell me about a time you stepped up into a leadership role.
-* Math Olympiad, led family, captained cricket team
+* Math Olympiad, led family during a crisis, , captained cricket team
 
 ### v. Team / communication and negotiation
 10) Do you collaborate well?
@@ -52,19 +57,31 @@ Source: https://www.youtube.com/watch?v=dse8OTDlRcM&list=PLLucmoeZjtMR990BPePcn5
 
 ### vi. Team/coworkers
 12) We have all had to work with people that don’t like us. How do you deal with someone that doesn’t like you?
+* Listening is a good strategy; try to understand, give value and respect.
+* Doesn’t like idea - present facts, data if possible.
+* Doesn’t like personally - try to understand psychology, maybe twisting my personality/behavior/tone could mitigate the issues.
 13) We all make mistakes we wish we could take back. Tell me about a time you wish you’d handled a situation differently with colleague.
+* Transition from JHU to BCM, eventually smooth, but I wish I could make it even better, specifically handed over the project to a student instead of just documenting. Given my supervisor was helping me, I could push him to hire a new student before I left.
 14) The last time you had to apologize.
+* To my team; couldn’t join a weekly team meeting, had go to doctor with an urgent appointment.
 
 ### vii. Team/conflict
 15) Give me an example of a time you faced conflict while working on a team. How did you handle that?
+* 
 16) Tell me about a time when received negative feedback from you manager. How did you responded?
+* No official feedback at my current role; previous role: IDP - mathematics/computation poorly scored, met and discussed his reasoning; given my background, I realized his expectation was higher, specifically I could contribute in other’s projects. I understood and acted accordingly, and during introduction of thesis defense, he said that I was one of the best mathematicians he had ever seen. So, I believe my response worked out.
 
 ### viii. Problem solving
 17) Tell me about a time when you missed an obvious solution to a problem.
+* Renamed data files, so missing when loading.
 18) A time when you faced a problem that had multiple possible solutions.
+* 
 19) Tell me about a time when you came up with a new approach to a problem.
+* Signal processing algorithm, slow to faster training method
 20) Describe a time when you anticipated potential problems and developed preventive measures.
+* Driving to Seattle, tire/tools, snow/chain, extra oil, food, pillow, blanket.
 21) Describe a situation in which you found a creative way to overcome an obstacle.
+* Current role - MTL, VDS model training slow to faster method.
 
 ### ix. Strategy / data
 22) How have you leveraged data to develop a strategy?
@@ -75,6 +92,7 @@ Source: https://www.youtube.com/watch?v=dse8OTDlRcM&list=PLLucmoeZjtMR990BPePcn5
 * Python vs. Matlab --> based on applicability data
 * Psychophysics vs. fMRI
 25) Tell me about a time you had to deal with ambiguity.
+* Cricket vs. engineering
 * JHU MS vs. family
 * Communicate, predict future and be confident taking risks, embrace change/be adaptive/flexible.
 
@@ -111,7 +129,7 @@ Source: https://www.youtube.com/watch?v=dse8OTDlRcM&list=PLLucmoeZjtMR990BPePcn5
 
 ### xv. General
 35) Why Amazon?
-* (i) Based on simple idea - think big, invent and simplify. I dream big but like to make things simple. (ii) Customer centric, data driven, engineering + neuro, innovate customer engagement techs. (iii) Prime member/aws service user (iv) Immigration.
+* (i) Based on simple idea - think big, invent and simplify. I dream big but like to make things simple. (ii) Customer centric, data driven, engineering + neuroscience, innovate customer engagement techs. (iii) Prime member/aws service user (iv) Immigration.
 
 ## Questions in the end
 1. What are the plans for Amazon over the next 5 to 10 years and how I could contribute and be integrated to achieve the goals together?
